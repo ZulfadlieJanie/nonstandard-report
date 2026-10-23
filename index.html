@@ -11,7 +11,7 @@
             background-color: #f8f9fa; 
         }
         .container { 
-            max-width: 750px; 
+            max-width: 850px; 
             margin: 0 auto; 
             background: white; 
             padding: 30px; 
@@ -400,13 +400,13 @@
                     <td>${row.serialNo}</td>
                     <td>${row.lotNo}</td>
                     <td>${row.brand}</td> 
-                    <td>${row.dateOfUsage}</td>
-                    <td>${row.patientName}</td>
-                    <td>${row.icNo}</td>
-                    <td>${row.wardBedNo}</td>
-                    <td>${row.hospital}</td>
-                    <td>${row.performedBy}</td>
-                    <td>${row.designation}</td>
+                    <td>${row.dateOfUsage}</td>       <!-- Col G (Date of Usage) -->
+                    <td>${row.patientName}</td>       <!-- Col C (Patient Name) -->
+                    <td>${row.icNo}</td>              <!-- Col D (IC No.) -->
+                    <td>${row.wardBedNo}</td>         <!-- Col E (Ward/Bed No) -->
+                    <td>${row.hospital}</td>          <!-- Col F (Hospital) -->
+                    <td>${row.performedBy}</td>       <!-- Col H (Performed by) -->
+                    <td>${row.designation}</td>       <!-- Col I (Designation) -->
                 `;
                 tableBody.appendChild(tr);
             });
